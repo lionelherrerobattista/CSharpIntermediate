@@ -10,10 +10,8 @@ namespace CSharpIntermediate
     {
         static void Main(string[] args)
         {
-            //var person = new Person();
-            //person.Name = "John";
-            var person = Person.Parse("John");
-            person.Introduce("Test");
+            //Lessons.LessonOne(); // Intro Classes
+            Lessons.LessonTwo();
         }
     }
 }
