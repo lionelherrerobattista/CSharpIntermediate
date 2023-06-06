@@ -9,6 +9,17 @@ namespace CSharpIntermediate
     public class Person
     {
         public string Name;
+        private DateTime _birthdate;
+
+        public void SetBirthdate(DateTime birthdate)
+        {
+            _birthdate = birthdate;
+        }
+
+        public DateTime GetBirthdate()
+        {
+            return _birthdate;
+        }
 
         public void Introduce(string to)
         {

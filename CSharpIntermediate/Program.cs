@@ -12,7 +12,8 @@ namespace CSharpIntermediate
         {
             //Lessons.LessonOne(); // Intro Classes
             //Lessons.LessonTwo(); // Constructors
-            Lessons.LessonThree(); // Methods
+            //Lessons.LessonThree(); // Methods
+            Lessons.LessonFive(); // access modifiers
         }
     }
 }
