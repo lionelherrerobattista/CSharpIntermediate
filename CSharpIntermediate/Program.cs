@@ -11,7 +11,8 @@ namespace CSharpIntermediate
         static void Main(string[] args)
         {
             //Lessons.LessonOne(); // Intro Classes
-            Lessons.LessonTwo();
+            //Lessons.LessonTwo(); // Constructors
+            Lessons.LessonThree(); // Methods
         }
     }
 }
