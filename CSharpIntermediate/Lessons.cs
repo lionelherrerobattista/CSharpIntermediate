@@ -8,8 +8,8 @@ namespace CSharpIntermediate
         {
             //var person = new Person();
             //person.Name = "John";
-            var person = Person.Parse("John");
-            person.Introduce("Test");
+            //var person = Person.Parse("John");
+            //person.Introduce("Test");
         }
 
         public static void LessonTwo()
@@ -28,9 +28,19 @@ namespace CSharpIntermediate
 
         public static void LessonFive()
         {
-            var person = new Person();
-            person.SetBirthdate(new DateTime(1982, 1, 1));
-            Console.WriteLine(person.GetBirthdate());
+            //var person = new Person();
+            //person.SetBirthdate(new DateTime(1982, 1, 1));
+            //Console.WriteLine(person.GetBirthdate());
+            var person = new Person(new DateTime(1982, 1, 1)); // initialize birthdate private
+            //person.Birthdate = new DateTime(1982, 1, 1);
+            Console.WriteLine(person.Age);
+        }
+
+        public static void LessonSix()
+        {
+            var cookie = new HttpCookie();
+            cookie["name"] = "Test";
+            Console.WriteLine(cookie["name"]);
         }
 
         public static void UseOut()

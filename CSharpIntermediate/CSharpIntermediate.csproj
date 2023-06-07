@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="HttpCookie.cs" />
     <Compile Include="Lessons.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Person.cs" />
