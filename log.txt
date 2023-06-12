@@ -1,0 +1,2 @@
+INFO: Migration started at 12/6/2023 18:14:22
+INFO: Migration finished at 12/6/2023 18:14:22

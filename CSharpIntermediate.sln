@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediate", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIntermediate.UnitTests", "CSharpIntermediate.UnitTests\CSharpIntermediate.UnitTests.csproj", "{8557EFE2-25AB-416A-A80A-CA0FAADEA461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibility\Extensibility.csproj", "{B0DC1114-EBB5-4704-AA88-B74F786E2E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{1EB24060-8ECF-4D7D-B5B7-B0E595E5D474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8557EFE2-25AB-416A-A80A-CA0FAADEA461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8557EFE2-25AB-416A-A80A-CA0FAADEA461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8557EFE2-25AB-416A-A80A-CA0FAADEA461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DC1114-EBB5-4704-AA88-B74F786E2E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DC1114-EBB5-4704-AA88-B74F786E2E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DC1114-EBB5-4704-AA88-B74F786E2E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DC1114-EBB5-4704-AA88-B74F786E2E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB24060-8ECF-4D7D-B5B7-B0E595E5D474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB24060-8ECF-4D7D-B5B7-B0E595E5D474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB24060-8ECF-4D7D-B5B7-B0E595E5D474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB24060-8ECF-4D7D-B5B7-B0E595E5D474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
