@@ -10,8 +10,8 @@ namespace CSharpIntermediate
     {
         static void Main(string[] args)
         {
-            //Exercises.ExerciseOne(); // stopwatch
-            Exercises.ExerciseTwo(); // stackoverflow posts
+            Exercises.ExerciseOne(); // stopwatch
+            // Exercises.ExerciseTwo(); // stackoverflow posts
         }
     }
 }

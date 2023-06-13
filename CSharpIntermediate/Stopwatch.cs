@@ -4,9 +4,9 @@ namespace CSharpIntermediate
 {
     public class Stopwatch
     {
-        public TimeSpan Duration { get; private set; }
         private DateTime _start;
         private bool _isRunning;
+        public TimeSpan Duration { get; private set; }
 
         public Stopwatch()
         {
@@ -15,21 +15,20 @@ namespace CSharpIntermediate
 
         public void Start()
         {
-            if (!this._isRunning)
-            {
-                this._start = DateTime.Now;
-                this._isRunning = true;
-            }
-            else
-            {
+            if (_isRunning)
                 throw new InvalidOperationException();
-            }
-
+        
+            _start = DateTime.Now;
+            _isRunning = true;
         }
+
         public void Stop()
         {
-            this.Duration = DateTime.Now - this._start;
-            this._isRunning = false;
+            if (!_isRunning)
+                throw new InvalidOperationException();
+         
+            Duration = DateTime.Now - _start;
+            _isRunning = false;
         }
     }
 }
